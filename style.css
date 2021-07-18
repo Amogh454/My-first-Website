@@ -1,0 +1,65 @@
+h1 {
+    color: brown;
+}
+.img {
+    border: solid;
+}
+
+
+
+.header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+
+}
+.projects {
+    background-color: lightsalmon;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  
+}
+.pro{
+    background-color: lightsalmon;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.image {
+   position: absolute;
+   left: 600px;
+   top: 60px;
+}
+h3{
+    text-align: center;
+}
+
+
+
+body {
+    background-color: #33C7FF
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+.text{
+   margin-left: 0px;
+}
+
+
+
+
+.container:hover img {
+    
+  transform:scale(1.1)
+  
+}
+
